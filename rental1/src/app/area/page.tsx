@@ -11,16 +11,15 @@ export default function Area() {
 
       <header className="mb-6">
         <h1 className="text-3xl font-bold">Service Areas</h1>
-        <Link href="/" className="text-blue-600 underline">← Back to Home</Link>
       </header>
 
       <ul className="list-disc list-inside space-y-2">
-        <li>Downtown Orlando</li>
-        <li>Winter Park</li>
-        <li>Altamonte Springs</li>
-        <li>Kissimmee</li>
-        <li>Lake Nona</li>
-        <li>And more...</li>
+        <li>Example</li>
+        <li>Example</li>
+        <li>Example</li>
+        <li>Example</li>
+        <li>Example</li>
+        <li>Example</li>
       </ul>
     </div>
   );
