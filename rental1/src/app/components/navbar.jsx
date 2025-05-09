@@ -36,7 +36,12 @@ return (
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="hidden sm:ml-6 sm:block">
+            <div className="flex sm:flex sm:flex-1 justify-center">
+            <a href="tel:+1234567890" className="text-red-500 hover:text-red-900 font-bold text-3xl">
+                  Call For Quote +1234567890  
+                </a>
+              </div>
+            <div className="hidden sm:flex sm:flex-1 justify-end">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
                   <Link
