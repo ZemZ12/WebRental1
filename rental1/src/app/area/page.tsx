@@ -3,24 +3,26 @@ import Link from 'next/link';
 
 export default function Area() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 p-6">
+    <div className="min-h-screen bg-white text-gray-900 flex justify-center items-center">
+    <div className="bg-white p-8 rounded-lg shadow-md max-w-lg w-full">
       <Head>
-        <title>Service Areas | Orlando Roof Repair</title>
-        <meta name="description" content="We serve all neighborhoods around Orlando. See if we cover your area." />
+        <title>Our Roofing Services | Orlando Roof Repair</title>
+        <meta name="description" content="Explore all roofing services we offer in the Orlando area." />
       </Head>
 
-      <header className="mb-6">
-        <h1 className="text-3xl font-bold">Service Areas</h1>
+      <header className="mb-6 text-center">
+        <h1 className="text-3xl font-bold mb-2">Our Area</h1>
+        
       </header>
 
       <ul className="list-disc list-inside space-y-2">
-        <li>Example</li>
-        <li>Example</li>
-        <li>Example</li>
-        <li>Example</li>
-        <li>Example</li>
-        <li>Example</li>
+        <li>Examples</li>
+        <li>Examples</li>
+        <li>Examples</li>
+        <li>Examples</li>
+        <li>Examples</li>
       </ul>
     </div>
+  </div>
   );
 }

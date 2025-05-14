@@ -17,7 +17,7 @@ export default function Main() {
         <section>
           <div className="bg-gray-100 p-4 rounded-lg shadow-md flex-col flex justify-center items-center">
             <h1 className="text-3xl font-bold mb-2 ">Welcome to BusinessName</h1>
-            <h2 className="text-lg">Your trusted partner for all your roofing needs in Orlando.</h2>
+            <h2 className="text-lg">This is example words for the busineess Name</h2>
           </div>
         </section>
 
@@ -49,6 +49,9 @@ export default function Main() {
             <textarea name="message" placeholder="How can we help?" required className="w-full p-2 border rounded" />
             <button type="submit" className="bg-blue-700 text-white px-4 py-2 rounded">Send Message</button>
           </form>
+          <a href="tel:+1234567890" className="text-red-500 hover:text-red-900 font-bold text-3xl">
+                  Call For Quote +1234567890  
+                </a>
           </div>
         </section>
 
@@ -62,8 +65,12 @@ export default function Main() {
               className="rounded border"
             ></iframe>
           </div>
+          <a href="tel:+1234567890" className="text-red-500 hover:text-red-900 font-bold text-3xl p-5">
+                  Call For Quote +1234567890  
+                </a>
           </div>
         </section>
+     
       </main>
 
       <footer className="bg-gray-100 text-center p-4 text-sm">
